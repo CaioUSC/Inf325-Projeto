@@ -22,6 +22,11 @@ SELECT COUNT(v.Id) NumeroTotalDeVendas
 GROUP BY Mes
 ORDER BY Mes;
 
+-- Consulta de um produto pela ID
+  SELECT p.*
+    FROM Produto p
+   WHERE p.Id = @Variavel
+
 -- Produtos mais vendidos (faturamento)
   SELECT p.Descricao,
          p.SKU,

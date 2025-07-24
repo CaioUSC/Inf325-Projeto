@@ -1,0 +1,5 @@
+#Comando para popular os produtos maisVendidos 
+JSON.SET maisVendidos:1 $ '[{"IdProduto":1,"Descricao":"Camiseta Azul","Preco":15.5,"ImageUrl":"http://imagem.com/a.png"},{"IdProduto":2,"Descricao":"Camiseta Vermelha","Preco":18.0,"ImageUrl":"http://imagem.com/b.png"},{"IdProduto":3,"Descricao":"Camiseta Verde","Preco":16.75,"ImageUrl":"http://imagem.com/c.png"},{"IdProduto":4,"Descricao":"Camiseta Preta","Preco":19.99,"ImageUrl":"http://imagem.com/d.png"},{"IdProduto":5,"Descricao":"Camiseta Branca","Preco":14.90,"ImageUrl":"http://imagem.com/e.png"},{"IdProduto":6,"Descricao":"Camiseta Amarela","Preco":17.50,"ImageUrl":"http://imagem.com/f.png"},{"IdProduto":7,"Descricao":"Camiseta Laranja","Preco":16.00,"ImageUrl":"http://imagem.com/g.png"},{"IdProduto":8,"Descricao":"Camiseta Cinza","Preco":15.75,"ImageUrl":"http://imagem.com/h.png"},{"IdProduto":9,"Descricao":"Camiseta Rosa","Preco":18.20,"ImageUrl":"http://imagem.com/i.png"},{"IdProduto":10,"Descricao":"Camiseta Marrom","Preco":17.80,"ImageUrl":"http://imagem.com/j.png"}]'
+
+#Comando para retornar os produtos maisVendidos
+JSON.GET maisVendidos:1

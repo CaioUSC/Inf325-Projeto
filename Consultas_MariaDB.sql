@@ -25,12 +25,12 @@ ORDER BY Mes;
 -- Consulta de um produto pela ID
   SELECT p.*
     FROM Produto p
-   WHERE p.Id = @Variavel
+   WHERE p.Id = @Variavel;
 
 -- Produtos mais vendidos (faturamento)
   SELECT p.Descricao,
          p.SKU,
-		 p.ThumbnailURL,
+		     p.ThumbnailURL,
          SUM(pv.Quantidade * pv.Preco) FaturamentoPorProduto
     FROM Produto p,
          ProdutosVenda pv
@@ -44,7 +44,7 @@ ORDER BY FaturamentoPorProduto DESC
 -- Produtos mais vendidos (quantidade)
   SELECT p.Descricao,
          p.SKU,
-		 p.ThumbnailURL,
+		     p.ThumbnailURL,
          SUM(pv.Quantidade) QuantidadeVendida
     FROM Produto p,
          ProdutosVenda pv
@@ -58,7 +58,7 @@ ORDER BY QuantidadeVendida DESC
 -- Produtos mais lucrativos
   SELECT p.Descricao,
          p.SKU,
-		 p.ThumbnailURL,
+		     p.ThumbnailURL,
          SUM(pv.Quantidade * (pv.Preco - p.Custo)) LucroTotal,
          (SUM(pv.Quantidade * (pv.Preco - p.Custo)) / SUM(pv.Quantidade * pv.Preco)) * 100 MargemDeLucroPercentual
     FROM Produto p,

@@ -18,7 +18,7 @@ CREATE TABLE Produto (
     SKU VARCHAR(50) NOT NULL,
     Descricao VARCHAR(255),
     Preco DECIMAL(13,2) NOT NULL,
-    Unidade VARCHAR(20),
+    Unidade VARCHAR(3),
     Custo DECIMAL(13,2),
     ThumbnailURL VARCHAR(255)
 );

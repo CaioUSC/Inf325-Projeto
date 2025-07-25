@@ -48,14 +48,16 @@ INSERT INTO ProdutosVenda (IdProduto, IdVenda, Quantidade, Preco, Unidade) VALUE
 (5, 3, 1, 95.00, 'un'),   -- Produto ID 5 (Calça Jeans Feminina), na Venda ID 3, 1 unidade
 -- Carlos Andrade comprou 2 tênis esportivos
 (6, 4, 2, 120.00, 'un'),  -- Produto ID 6 (Tênis Esportivo), na Venda ID 4, 2 unidades
--- Tech Soluções comprou 5 pares de meias
+-- Tech Soluções comprou 5 pares de meias e 1 camiseta vermelha
 (7, 5, 5, 15.00, 'par'),  -- Produto ID 7 (Meia Branca), na Venda ID 5, 5 pares
+(2, 5, 1, 54.90, 'un'),   -- Produto ID 2 (Camiseta Vermelha, na Venda ID 5, 1 unidade
 -- Ana Lima comprou uma jaqueta preta
 (8, 6, 1, 199.99, 'un'),  -- Produto ID 8 (Jaqueta Preta), na Venda ID 6, 1 unidade
 -- Paulo Souza comprou 2 bonés
 (9, 7, 2, 29.90, 'un'),   -- Produto ID 9 (Boné Azul), na Venda ID 7, 2 unidades
--- Agro Vale comprou 1 cinto de couro
+-- Agro Vale comprou 1 cinto de couro e 1 camiseta vermelha
 (10, 8, 1, 35.00, 'un'),  -- Produto ID 10 (Cinto Couro), na Venda ID 8, 1 unidade
+(2, 8, 1, 54.90, 'un'),   -- Produto ID 2 (Camiseta Vermelha, na Venda ID 8 , 1 unidade 
 -- Beatriz Costa comprou 1 camiseta azul
 (1, 9, 1, 49.90, 'un'),   -- Produto ID 1 (Camiseta Azul), na Venda ID 9, 1 unidade
 -- Ricardo Martins comprou 2 camisetas verdes

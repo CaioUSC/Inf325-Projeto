@@ -31,7 +31,6 @@ CREATE TABLE Venda (
 );
 
 CREATE TABLE ProdutosVenda (
-    Id INT AUTO_INCREMENT PRIMARY KEY,
     IdProduto INT NOT NULL,
     IdVenda INT NOT NULL,
     Quantidade DECIMAL(13,2) NOT NULL,

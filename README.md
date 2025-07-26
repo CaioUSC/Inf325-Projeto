@@ -39,7 +39,7 @@ Este projeto tem como objetivo estruturar e integrar diferentes bancos de dados 
 - `Comandos.redis`  
   Armazena comandos para:
   - Inserção de produtos mais vendidos em formato JSON
-  - Organização por categoria ou popularidade
+  - Busca dos produtos mais vendidos
 
 > **Exemplo de estrutura armazenada:**
 > ```json
@@ -62,8 +62,7 @@ Este projeto tem como objetivo estruturar e integrar diferentes bancos de dados 
 
 - `consulta_neo4j.cypher`  
   Exemplos de consultas para:
-  - Recuperar todos os produtos comprados por um cliente
-  - Identificar produtos similares com base em conexões indiretas
+  - Recuperar todos os produtos que foram comprados juntos
 
 ---
 

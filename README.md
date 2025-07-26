@@ -30,6 +30,7 @@ Este projeto tem como objetivo estruturar e integrar diferentes bancos de dados 
   - Produtos mais vendidos e mais lucrativos
   - Clientes e estados com maior volume de compras
   - Identificação de clientes inativos
+  - Informações analiticas de um produto desejado
 
 ---
 

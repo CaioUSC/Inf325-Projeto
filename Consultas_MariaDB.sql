@@ -23,9 +23,10 @@ GROUP BY Mes
 ORDER BY Mes;
 
 -- Consulta de um produto pela ID
+  SET @IdProduto = 1;
   SELECT p.*
     FROM Produto p
-   WHERE p.Id = @Variavel;
+   WHERE p.Id = @IdProduto;
 
 -- Produtos mais vendidos (faturamento)
   SELECT p.Descricao,

@@ -30,6 +30,8 @@ ORDER BY Mes;
 -- Produtos mais vendidos (faturamento)
   SELECT p.Descricao,
          p.SKU,
+         p.preco,
+         p.id,
 		     p.ThumbnailURL,
          SUM(pv.Quantidade * pv.Preco) FaturamentoPorProduto
     FROM Produto p,
@@ -44,6 +46,8 @@ ORDER BY FaturamentoPorProduto DESC
 -- Produtos mais vendidos (quantidade)
   SELECT p.Descricao,
          p.SKU,
+         p.preco,
+         p.id,
 		     p.ThumbnailURL,
          SUM(pv.Quantidade) QuantidadeVendida
     FROM Produto p,

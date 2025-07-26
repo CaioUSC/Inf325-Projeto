@@ -1,6 +1,6 @@
 # 📦 Sistema de Análise e Recomendação de Produtos
 
-Este projeto tem como objetivo estruturar e integrar diferentes bancos de dados para registrar o histórico de pedidos, analisar padrões de compra e armazenar produtos mais vendidos em cache para futuras recomendações.
+Este projeto tem como objetivo estruturar e integrar diferentes bancos de dados para registrar o histórico de pedidos, analisar padrões de compra para futuras recomendações e armazenar produtos mais vendidos em cache para otimizar a busca de categorias mais consultadas.
 
 ## 🛠️ Tecnologias Utilizadas
 

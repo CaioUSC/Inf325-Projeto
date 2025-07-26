@@ -62,7 +62,7 @@ Este projeto tem como objetivo estruturar e integrar diferentes bancos de dados 
 
 - `consulta_neo4j.cypher`  
   Exemplos de consultas para:
-  - Recuperar todos os produtos que foram comprados juntos
+  - Busca os produtos que aparecem junto com esse produto em outras vendas, ordenando pela quantidade de vendas que eles compartilham
 
 ---
 
